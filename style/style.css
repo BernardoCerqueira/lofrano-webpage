@@ -67,7 +67,7 @@ header{
     backdrop-filter: blur(10px); /* Efeito de desfoque */
     -webkit-backdrop-filter: blur(10px); /* Efeito de desfoque para navegadores com prefixo */
     width: 100%;
-    padding: 1.5rem 4% 2rem 4%;
+    padding: 2rem 4%;
     position: fixed; /*Deixa o NavBar fixo*/
     top: 0;
     left: 0;
