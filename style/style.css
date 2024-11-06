@@ -115,62 +115,11 @@ header ul li{
 
 /*Galeria - Projetos*/
 
-.carousel {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 80%;
-    max-width: 600px;
-    overflow: hidden;
-    margin-bottom: 6rem;
-    border-radius: 20px;
+#carouselExampleIndicators{
+    max-width: 900px;
+    height: auto;
+    margin: auto;
 }
-
-.carousel-track-container {
-    overflow: hidden;
-    position: relative;
-}
-
-.carousel-track {
-    list-style: none;
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-    min-width: 100%;
-}
-
-.carousel-slide img {
-    width: 100%;
-    display: block;
-    transition: all 0.3s ease-in-out;
-}
-
-.carousel-slide img:hover{
-    filter: brightness(0.8);
-}
-
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.carousel-button.prev {
-    left: 10px;
-}
-
-.carousel-button.next {
-    right: 10px;
-}
-
 
 /*Sobre mim*/
 
